@@ -1,0 +1,26 @@
+COMANDOS BÁSICOS DE GIT — ACTIVIDAD 2
+
+git --version
+git config --global user.name "Nombre Apellido"
+git config --global user.email "correo@ejemplo.com"
+git config --list
+git clone https://github.com/USUARIO/actividad-2-git.git
+cd actividad-2-git
+git status
+git remote -v
+git branch
+git diff
+git add notas.txt
+git add .
+git diff --staged
+git commit -m "Agrega notas iniciales de la actividad"
+git log --oneline
+git push -u origin main
+
+Flujo recomendado:
+1. Editar o crear archivos.
+2. Revisar el estado con git status y los cambios con git diff.
+3. Preparar con git add.
+4. Revisar lo preparado con git diff --staged.
+5. Confirmar con git commit -m "Descripción concreta".
+6. Publicar con git push.
